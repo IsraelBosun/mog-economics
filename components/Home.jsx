@@ -57,7 +57,8 @@ const Home = () => {
           </div>
         </div>
         <div className="md:w-[60%]">
-          <img src={hero} alt="can" />
+        <Image src={hero} alt="hello" width={600} height={600} />
+
         </div>
       </div>
       <div>
@@ -75,7 +76,7 @@ const Home = () => {
         >
           {logos.map((logo, index) => (
             <motion.div variants={item} className="w-28" key={index}>
-              <img src={logo} alt="" className="w-full object-cover" />
+              <Image src={logo} alt="hello" width={900} height={200} className="w-full object-cover" />
             </motion.div>
           ))}
         </motion.div>

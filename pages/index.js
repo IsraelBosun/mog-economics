@@ -1,6 +1,9 @@
 import React from 'react'
+import Logo from "../public/assets/hero.png"
+import Image from 'next/image'
 
-import { About, Contact, Courses, Home, Footer, Teacher } from "../components/index.js"
+
+import { About, Contact, Courses, Home, Teacher } from "../components/index.js"
 
 const index = () => {
   return (
@@ -8,10 +11,10 @@ const index = () => {
       <Home />
       <About />
       <Courses />
-      <Teacher />
+      <Teacher videoUrl="https://www.youtube.com/watch?v=ysz5S6PUM-U" />
       <Contact />
     </>
   )
 }
-
+ 
 export default index

@@ -196,18 +196,22 @@ export const accordions = [
   {
     id: 1,
     title: "What is MOG school of Economics?",
+    response: "Our Economics online education classes are designed to provide university students with a comprehensive understanding of economic concepts and principles. Our courses cover a range of topics, from micro and macroeconomics to international trade and finance. Our instructors are experienced educators and industry professionals, committed to providing high-quality and engaging learning experiences. With flexible scheduling and accessible course materials, our classes are suitable for students of all levels of economic knowledge."
   },
   {
     id: 2,
     title: "What is the format of your online courses?",
+     response: "Our online Economics courses are designed to provide university students with a comprehensive understanding of economic concepts and principles. We offer a flexible format that allows students to learn at their own pace, with the ability to access course materials and lectures anytime and anywhere. Our courses are fully online, with no in-person requirements, and are delivered through an easy-to-use online learning platform.1"
   },
   {
     id: 3,
     title: "What level of Economics expertise do I need to have to enroll in your courses?",
+    response: "Students of all levels of economic knowledge are welcome to enroll in our online Economics courses. Our courses cover a wide range of topics, including micro and macroeconomics, international trade, and finance. Our goal is to provide a comprehensive understanding of economic concepts and principles, and our instructors are experienced educators and industry professionals who are committed to delivering engaging and high-quality learning experiences."
   },
   {
     id: 4,
     title: "How much do your courses cost?",
+    response: "We understand that cost is an important factor for many students, which is why we strive to make our online Economics courses affordable. While the cost of our courses may vary depending on the specific course and program, we are committed to offering competitive pricing that is accessible to a wide range of students."
   },
 ];
 
