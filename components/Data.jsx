@@ -29,29 +29,29 @@ import AVTR7 from  "../public/assets/popoola.jpeg";
 
 
 export const navLinks = [
-  {
-    id: 1,
-    href: "home",
-    link: "Home",
-  },
+  // {
+  //   id: 1,
+  //   href: "/Product",
+  //   link: "Home",
+  // },
   {
     id: 2,
-    href: "about",
-    link: "About",
+    href: "/Aboutus",
+    link: "About us",
   },
   {
     id: 3,
-    href: "courses",
+    href: "/Courses",
     link: "Courses",
   },
   {
     id: 4,
-    href: "teacher",
-    link: "Teacher",
+    href: "/Teachers",
+    link: "Teachers",
   },
   {
     id: 5,
-    href: "contact",
+    href: "/Contact",
     link: "Contact",
   },
 ];

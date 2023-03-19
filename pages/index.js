@@ -11,7 +11,7 @@ const index = () => {
       <Home />
       <About />
       <Courses />
-      <Teacher videoUrl="https://www.youtube.com/watch?v=ysz5S6PUM-U" />
+      <Teacher />
       <Contact />
     </>
   )

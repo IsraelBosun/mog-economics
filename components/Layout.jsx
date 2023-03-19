@@ -2,6 +2,7 @@ import React from 'react'
 import Head from "next/head"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
+import {motion} from "framer-motion"
 
 
 const Layout = ({ children }) => {
