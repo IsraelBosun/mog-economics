@@ -124,6 +124,7 @@ export const courses = [
     rating: 4.9,
     participants: 500,
     price: "#1000",
+    Level: 100,
   },
   {
     id: 2,
@@ -133,6 +134,7 @@ export const courses = [
     rating: 4.8,
     participants: 700,
     price: "#1200",
+    Level: 100,
   },
   {
     id: 3,
@@ -141,7 +143,8 @@ export const courses = [
     title: "Macroeconomics for beginners",
     rating: 4.9,
     participants: 300,
-    price: "#9900"
+    price: "#9900",
+    Level: 100,
   },
   {
     id: 4,
@@ -150,7 +153,8 @@ export const courses = [
     title: "The Nigerian Economy",
     rating: 4.7,
     participants: 600,
-    price: "#8500"
+    price: "#8500",
+    Level: 100,
   },
   {
     id: 5,
@@ -160,6 +164,7 @@ export const courses = [
     rating: 4.9,
     participants: 500,
     price: "#1050",
+    Level: 200,
   },
   {
     id: 6,
@@ -169,6 +174,7 @@ export const courses = [
     rating: 4.9,
     participants: 500,
     price: "#1050",
+    Level: 300,
   },
   {
     id: 7,
@@ -178,6 +184,7 @@ export const courses = [
     rating: 4.9,
     participants: 500,
     price: "#1050",
+    Level: 300,
   },
   {
     id: 8,
@@ -187,6 +194,7 @@ export const courses = [
     rating: 4.9,
     participants: 500,
     price: "#1050",
+    Level: 200,
   },
 ];
 

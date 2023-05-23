@@ -1,11 +1,11 @@
 import React from 'react'
-// import Image from "next/image"
+import Image from "next/image"
 import { AiOutlineUser, AiOutlineStar } from "react-icons/ai"
 
-const Course = ({image, category, title, participants, rating, price, Level}) => {
+const CoursesBody = ({image, category, title, participants, rating, price, Level}) => {
   return (
-    <div className='  p-2 shadow-lg min-w-[15rem] bg-white rounded-md'>
-        <img   alt="courses" />
+    <div className='w-max-[40px] p-2 shadow-lg min-w-[15rem] bg-white rounded-md'>
+        <Image src={image}   alt="courses" />
         <div className='mt-2 text-xs text-Teal'>{category}</div>
         <div className='text-sm mt-2 font-bold my-3'>{title}</div>
         <div className='flex items-center justify-between'>
@@ -36,6 +36,4 @@ const Course = ({image, category, title, participants, rating, price, Level}) =>
   )
 }
 
-export default Course
-
-//         <img src={image} width = {20} height = {10} alt="" />
+export default CoursesBody

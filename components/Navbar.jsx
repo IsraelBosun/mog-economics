@@ -32,7 +32,8 @@ const Navbar = () => {
               </div>
             </Link>
           </div>
-        <div className='sm:flex items-center hidden'>
+        <div className='sm:flex
+         items-center hidden'>
           {navLinks.map((navLinkss) => {
             return <NavLink key={navLinkss.id} {...navLinkss} />
           })}
